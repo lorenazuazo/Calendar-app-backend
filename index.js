@@ -23,6 +23,7 @@ app.use(express.static('public'));
 
 //Rutas
 app.use('/api/auth',require('./routes/auth'));
+app.use('/api/events',require('./routes/events'));
 
 
 //escuchar peticiones por el puerto 4000-puede ser 

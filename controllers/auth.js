@@ -1,8 +1,8 @@
 const {response} = require('express');
 const bcrypt = require('bcryptjs');
 
-const Usuario = require('../models/Usuario');
 const { generarJWT } = require('../helpers/jwt');
+const Usuario = require('../models/Usuario');
 
 
 /* res = response es para el intelisence */
